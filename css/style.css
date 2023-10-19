@@ -121,7 +121,7 @@
 
   .m-heading {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 
   }
 
@@ -145,4 +145,34 @@
     border-radius: 50%;
     margin-bottom: 1rem;
 
+  }
+
+  #who {
+    display: flex;
+  }
+
+  #who div {
+    flex: 1;
+  }
+
+  #who .who-img {
+    background: url(../img/randy.jpg) no-repeat center center/cover;
+
+  }
+
+  .list {
+    margin: 2rem 0;
+    padding-left: 2rem;
+    list-style: none;
+
+
+  }
+    .list li {
+    padding: 0.5rem 0;
+    border-bottom: #333 dotted 1px;
+    font-size: 1rem;
+  }
+
+  #who h2 {
+    padding-left: 2rem;
   }
