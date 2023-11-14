@@ -194,3 +194,20 @@
   #who-text {
     margin: 10 ;
   }
+
+  #knihycontent {
+    background: url(../img/atom.jpg);
+
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px; 
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
