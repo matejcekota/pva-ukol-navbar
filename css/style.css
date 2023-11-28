@@ -211,3 +211,19 @@
     clear: both;
     display: table;
   }
+
+  .bg-dark {
+    background-color: #565656;
+    text-align: center;
+    margin-top: 2rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #guys img {
+      border-radius: 50%;
+  }
