@@ -202,6 +202,12 @@
 
   .column {
     float: left;
+    width: 16.6%;
+    padding: 0px; 
+  }
+
+  .columna {
+    float: left;
     width: 25%;
     padding: 5px; 
   }
