@@ -141,6 +141,7 @@
   #what .item {
     text-align: center;
     padding: 1rem;
+
   }
 
   #what .items .item i {
@@ -200,10 +201,16 @@
 
   }
 
+  #knihy .container {
+    margin: auto;
+    padding: 10px;
+    max-width: fit-content;
+  }
+
   .column {
     float: left;
     width: 16.6%;
-    padding: 5px;
+    padding: 1px;
 
   }
 
@@ -233,4 +240,8 @@
 
   #guys img {
       border-radius: 50%;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
